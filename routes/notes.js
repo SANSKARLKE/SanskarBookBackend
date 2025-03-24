@@ -69,7 +69,7 @@ router.put(
       if (content) {
         newNote.content = content;
       }
-      if (tag) {
+      if (tag || tag==="") {
         newNote.tag = tag;
       }
 
